@@ -1,0 +1,19 @@
+这是我的页面
+
+<button
+  type="default"
+  bindtap="default"
+  hover-class="other-button-hover"
+>
+  default
+</button>
+<button
+  type="primary"
+  bindtap="primary"
+>
+  {{btnText}}
+</button>
+<text>{{text}}</text>
+<view wx:if="{{show}}">{{text}}</view>
+
+<view wx:for="{{abc}}" wx:for-item="it">{{it}}</view>
